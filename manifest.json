@@ -3,8 +3,13 @@
     "name": "Just Search",
     "description": "This is a very simple new TAB extension for Chrome. The purpose is to replace Chrome's default tabs.",
     "version": "0.1",
+    "icons": {
+        "128": "src/assets/icons/128x128/just-search.png",
+        "256": "src/assets/icons/256x256/just-search.png",
+        "512": "src/assets/icons/512x512/just-search.png"
+    },
     "action": {
         "default_popup": "src/just-search.html",
-        "default_icon": "src/assets/icons/icon.jpg"
+        "default_icon": "src/assets/icons/256x256/just-search.png"
     }
 }
