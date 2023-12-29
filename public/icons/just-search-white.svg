@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Just-Search" data-name="Just-Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M118.73,38.48c-43.63,0-79,35.37-79,79s35.37,79,79,79,79-35.37,79-79S162.36,38.48,118.73,38.48Zm0,137c-32.03,0-58-25.97-58-58s25.97-58,58-58,58,25.97,58,58-25.97,58-58,58Z"/>
+  <rect class="cls-1" x="148.73" y="175.48" width="75" height="24" rx="12" ry="12" transform="translate(187.12 -76.77) rotate(45)"/>
+</svg>
