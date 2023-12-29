@@ -40,7 +40,7 @@ class App extends React.Component {
 
   render(): React.ReactNode {
       return (
-        <div className="w-screen h-full bg-gray-200 dark:bg-[#3e454c] flex flex-col justify-start items-center py-24 px-4">
+        <div className="w-screen h-full bg-gray-200 dark:bg-[#3c3c3c] flex flex-col justify-start items-center py-24 px-4">
           {/* logo */}
           <div id='logo-bar' className='w-full flex flex-row justify-center items-center'>
             <svg id="Just-Search" data-name="Just-Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" className='w-20 h-20 fill'>
@@ -51,9 +51,9 @@ class App extends React.Component {
           </div>
 
           {/* search */}
-          <div className='px-6 py-4 bg-white dark:bg-gray-900 w-full max-w-[48rem] rounded-lg shadow-lg mt-16'>
+          <div className='px-6 py-3 bg-white hover:bg-gray-50 focus-within:bg-gray-50 dark:hover:bg-[#4a4a4a] dark:focus-within:bg-[#4a4a4a] dark:bg-[#282828] w-full max-w-[48rem] rounded-lg shadow-lg mt-16'>
             <label htmlFor="search"></label>
-            <input id='search' name='search' type="text" value={this.state.search_info} className='text-xl outline-none w-full bg-transparent text-gray-600 dark:text-white' placeholder='Search' onKeyDown={this.inputOnEnter} onChange={this.inputOnChange} />
+            <input id='search' name='search' type="text" value={this.state.search_info} className='text-xl outline-none w-full bg-transparent text-gray-600 dark:text-white' placeholder='Search' autoComplete='off' onKeyDown={this.inputOnEnter} onChange={this.inputOnChange} />
           </div>
 
 
