@@ -47,7 +47,7 @@ class App extends React.Component {
               <path className="fill-gray-600 dark:fill-gray-300" d="M118.73,38.48c-43.63,0-79,35.37-79,79s35.37,79,79,79,79-35.37,79-79S162.36,38.48,118.73,38.48Zm0,137c-32.03,0-58-25.97-58-58s25.97-58,58-58,58,25.97,58,58-25.97,58-58,58Z" />
               <rect className="fill-gray-600 dark:fill-gray-300" x="148.73" y="175.48" width="75" height="24" rx="12" ry="12" transform="translate(187.12 -76.77) rotate(45)" />
             </svg>
-            <h1 className='ml-8 text-[2rem] md:text-[3rem] font-medium text-gray-600 dark:text-gray-300 cursor-default max'>Just Search</h1>
+            <h1 className='ml-8 text-[2rem] md:text-[3rem] font-medium text-gray-600 dark:text-gray-300 cursor-default max' style={{userSelect: 'none'}}>Just Search</h1>
           </div>
 
           {/* search */}
