@@ -7,7 +7,7 @@ The project is under development.
 
 ## Download
 
-You can download Just-Search from Chrome Web Store, or Github Releases Page.
+You can download Just-Search from [Chrome Web Store](https://chromewebstore.google.com/detail/just-search/nhinboemgecmnkacmppmdfaieblacdja), or [Github Releases](https://github.com/See-Night/Just-Search/releases/latest) Page.
 
 ## Build from source
 
